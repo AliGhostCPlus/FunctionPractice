@@ -9,23 +9,23 @@
 
 
 void WelcomeMessage();
-void EmployeeiInformation();
-void ProgramLoop();
+void EmployeeInformation();
+void Program();
 
 
 int main()
 {
-    ProgramLoop();
+    Program();
     return 0;
 }
 
 
 
-void ProgramLoop()
+void Program()
 
 {
     WelcomeMessage();
-    EmployeeiInformation();
+    EmployeeInformation();
 
 }
 void WelcomeMessage()
@@ -35,7 +35,7 @@ void WelcomeMessage()
     std::cout << "Then your ID tag \n";
     std::cout << "The final data input will be your workshift \n";
 }
-void EmployeeiInformation()
+void EmployeeInformation()
 {
     std::string employeeName;
     int badgeID;
@@ -49,3 +49,4 @@ void EmployeeiInformation()
     std::cout << "Welcomee : " << employeeName << std::endl;
     std::cout << "Your ID : " << badgeID << std::endl;
     std::cout << "Your shift is : " << workShift << std::endl;
+}
